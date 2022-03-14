@@ -3,4 +3,4 @@
     $t = 5.4;
     $phi = 22 / 7;
     $vol = 1 / 3 * $phi * $r * $r * $t;
-    echo $vol . " m3";
+    echo round($vol, 3) . " m3";
